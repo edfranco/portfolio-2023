@@ -1,0 +1,24 @@
+.nav  {
+    color: #3fffff;
+    flex: 1;
+    border-right: 0.3rem solid #2e2e2e;
+    ul {
+        height: 100%;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 0 1em;
+        li {
+            font-size: 2rem;
+            margin-bottom: 1.25em;
+            padding: 0.25em 0;
+        }
+        li:hover {
+            transition: 0.35s;
+            color: #ccfefe;
+            cursor: pointer;
+        }
+    }
+}
