@@ -11,7 +11,6 @@ function App() {
       <main>
         <Landing />
         <ExperienceContainer />
-        <div id="misc" style={{minHeight:'100vh'}}></div>
       </main>
     </div>
   );
