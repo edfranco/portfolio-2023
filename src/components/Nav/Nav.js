@@ -1,15 +1,17 @@
+import { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import './Nav.scss';
 
 function Nav() {
     return (
         <div className="nav">
-        <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Portfolio</li>
-          <li>Misc</li>
-          <li>Contact</li>
-        </ul>
+            <ul>
+                <a href="/#landing">Home</a>
+                <a href="/#experience-container">Experience</a>
+                {/* <a href="/#experience-container">Portfolio</a>
+                <a href="/#misc">Misc</a>
+                <a href="/#experience-container">Contact</a> */}
+            </ul>
       </div>
     );
 }

@@ -2,18 +2,27 @@
     text-align: center;
     padding: 0 1em;
     .portrait-container {
-        width: 33em;
-        padding: 1.5em;
+        flex: 1;
         border: 0.3rem solid #3fffff;
         border-radius: 1em 4em 3em 8em;
         transition: visibility 0s, opacity 0.75s linear;
+        max-height: 27rem;
     }
     .bio-text {
+        flex: 10;
         width: 100%;
+        margin: 0 4em;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        font-size: 1.5rem;
+        h1 {
+            margin: 0;
+        }
+        h2 {
+            margin: 0.2em 0;
+        }
         div {
             transition: visibility 0s, opacity 0.75s linear;
         }

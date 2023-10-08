@@ -1,0 +1,21 @@
+.experience {
+    width: 100%;
+    margin: 5em 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    img {
+        width: 45em;
+    }
+    .experience-text { 
+        padding: 0 1em;
+        ul {
+            padding: 0 1em;
+            li {
+                margin: 1em 0;
+                list-style: none;
+            }
+        }
+    }
+}

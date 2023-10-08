@@ -1,4 +1,5 @@
 .nav  {
+    max-height: 100vh;
     color: #3fffff;
     flex: 1;
     border-right: 0.3rem solid #2e2e2e;
@@ -10,15 +11,11 @@
         justify-content: center;
         align-items: flex-start;
         padding: 0 1em;
-        li {
-            font-size: 2rem;
-            margin-bottom: 1.25em;
-            padding: 0.25em 0;
+        a {
+            text-decoration: none;
         }
-        li:hover {
-            transition: 0.35s;
-            color: #ccfefe;
-            cursor: pointer;
+        a.active {
+            color: #ff8c3f;
         }
     }
 }

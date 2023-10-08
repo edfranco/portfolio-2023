@@ -23,7 +23,7 @@ function Landing() {
     }, [currentIndex, welcomeMsg]);
     
     return(
-        <div className="landing" style={{flex: 5, display:'flex', justifyContent:'center', alignItems:'center'}}>
+        <div className="landing" id="landing" name="landing" style={{flex: 5}}>
             <div className="portrait-container" style={displayBio ? {visibility:'visible', opacity:1 } : {visibility: 'hidden', opacity: 0}}>
                 <img alt="eduardo franco headshot" src={portrait} />
             </div>

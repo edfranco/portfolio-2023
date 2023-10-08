@@ -1,12 +1,46 @@
+:root {
+  background-color: #000;
+}
 body {
     :is(h1, h2, h3, h4, h5, h6) {
     color: #3fffff;
   }
+  a {
+    color: #3fffff;
+    font-size: 2rem;
+    margin-bottom: 1.25em;
+    padding: 0.25em 0;
+    text-underline-offset: 0.5rem;
+  }
+  a:hover {
+      transition: 0.35s;
+      color: #2cb3b3;
+      cursor: pointer;
+  }
+  a:visited{
+    color: inherit;
+  }
+  a:active {
+      color: #ff8c3f;
+  }
 
   .app {
-    background-color: #000;
+    position: relative;
     min-height: 100vh;
+    max-height: 100vh;
     display: flex;
     color: #fff;
+    main {
+      padding: 1.5em;
+      overflow: auto;
+      scroll-behavior: smooth;
+    }
+    main > div {
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      scroll-snap-type: y mandatory;
+    }
   }
 }
