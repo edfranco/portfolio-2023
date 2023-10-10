@@ -1,8 +1,8 @@
 .nav  {
     max-height: 100vh;
-    color: #3fffff;
+    color: #fff;
     flex: 1;
-    border-right: 0.3rem solid #2e2e2e;
+    border-right: 0.1rem solid #0f0f0f;
     ul {
         height: 100%;
         list-style: none;
@@ -13,9 +13,7 @@
         padding: 0 1em;
         a {
             text-decoration: none;
-        }
-        a.active {
-            color: #ff8c3f;
+            font-size: 1.33em;
         }
     }
 }

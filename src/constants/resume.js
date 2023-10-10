@@ -12,7 +12,7 @@ const resumeArr = [
             "Create, update, and modify front end components for weekly brand launches using HTML, CSS, and JS with Vue.js and Sass",
             "Prioritize AAA and AA standards to maintain accessibility throughout Williams-Sonoma sites"
         ],
-        link: "https://www.williams-sonoma.com/",
+        link: "https://www.markandgraham.ca/",
         image: mg
     },
     {

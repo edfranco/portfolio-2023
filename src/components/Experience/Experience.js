@@ -13,7 +13,8 @@ function Experience(props) {
                 <img src={props.image} alt={`${props.company} homepage`}/>
             </div>
             <div className="experience-text">
-                <h1><a href={props.link}>{props.company}</a></h1>
+                <h1><a href={props.link} target="_blank" rel="noreferrer">{props.company}</a></h1>
+                <h3 style={{color:'#3fff'}}>{props.date}</h3>
                 <ul>
                     {renderBulletPoints(props.duties)}
                 </ul>

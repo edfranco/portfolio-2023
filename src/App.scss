@@ -3,10 +3,10 @@
 }
 body {
     :is(h1, h2, h3, h4, h5, h6) {
-    color: #3fffff;
+    color: #fff;
   }
   a {
-    color: #3fffff;
+    color: #fff;
     font-size: 2rem;
     margin-bottom: 1.25em;
     padding: 0.25em 0;
@@ -21,7 +21,7 @@ body {
     color: inherit;
   }
   a:active {
-      color: #ff8c3f;
+      color: #3fff;
   }
 
   .app {
