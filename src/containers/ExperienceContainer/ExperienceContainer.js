@@ -17,7 +17,7 @@ function ExperienceContainer() {
     };
 
     return(
-        <div id="experience-container" name="experience-container" style={{ margin:'5em 0', flexDirection:'column' }}>
+        <div id="experience-container" name="experience-container">
             {renderExperiences(experiences)}
         </div>
     );

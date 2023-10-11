@@ -16,4 +16,9 @@
             font-size: 1.33em;
         }
     }
+    @media screen and (max-width:768px) {
+        .desktop-nav-links {
+            display: none;
+        }
+    }
 }

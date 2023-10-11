@@ -33,9 +33,9 @@ function Landing() {
                         <h2 style={{color:'#3fff'}}>Front End Developer</h2> 
                         <p>Front end developer with experience working on <a href="https://www.exploratorium.edu/" target="_blank" rel="noreferrer">exploratorium.edu</a>, <a href="https://athleta.gap.com/" target="_blank" rel="noreferrer">athleta.gap.com</a>, and most recently launching <a href="https://www.markandgraham.ca/" target="_blank" rel="noreferrer">markandgraham.ca</a>. Currently working on WIlliams-Sonoma's cross-brand design system components (Williams-Sonoma, Pottery Barn, West Elm, Rejuvenation, Mark and Graham). </p>
                         <div className="social-links">
-                            <a href="https://www.linkedin.com/in/edfrancocano/" target="_blank" rel="noreferrer"><i class="fa-brands fa-linkedin"></i></a>
-                            <a href="https://github.com/edfranco/" target="_blank" rel="noreferrer"><i class="fa-brands fa-square-github"></i></a>
-                            <a href="mailto:edfrancodevelopment@gmail.com/" target="_blank" rel="noreferrer"><i class="fa-regular fa-envelope"></i></a>
+                            <a href="https://www.linkedin.com/in/edfrancocano/" target="_blank" rel="noreferrer"><i className="fa-brands fa-linkedin"></i></a>
+                            <a href="https://github.com/edfranco/" target="_blank" rel="noreferrer"><i className="fa-brands fa-square-github"></i></a>
+                            <a href="mailto:edfrancodevelopment@gmail.com/" target="_blank" rel="noreferrer"><i className="fa-regular fa-envelope"></i></a>
                         </div>
                 </div>
             </div>
